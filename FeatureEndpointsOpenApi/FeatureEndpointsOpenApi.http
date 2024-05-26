@@ -1,0 +1,9 @@
+@FeatureEndpointsOpenApi_HostAddress = http://localhost:5191
+
+GET {{FeatureEndpointsOpenApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+PUT {{FeatureEndpointsOpenApi_HostAddress}}/weatherforecast/
+Accept: application/json
